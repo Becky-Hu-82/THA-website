@@ -1,0 +1,14 @@
+#navbar {
+  background-color: #4e6735;
+}
+
+.nav-link,
+.nav-link-active {
+  font-family: Poppins;
+  font-size: 20px;
+}
+
+.nav-link-active {
+  background-color: #aec359;
+  border-radius: 20px;
+}

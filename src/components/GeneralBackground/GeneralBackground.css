@@ -1,0 +1,12 @@
+.yellowBg,
+.whiteBg {
+  min-height: 50vh;
+}
+
+.yellowBg {
+  background-color: #fffbf0;
+}
+
+.whiteBg {
+  background-color: white;
+}
