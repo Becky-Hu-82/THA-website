@@ -22,6 +22,12 @@ const Navbar = () => {
       >
         Future
       </Link>
+      <Link
+        to='/about'
+        className={isCurrentPage('/about') ? 'nav-link-active' : 'nav-link'}
+      >
+        About
+      </Link>
     </div>
   );
 };

@@ -1,7 +1,9 @@
 import GeneralBackground from '../components/GeneralBackground/GeneralBackground';
-import './About.css';
+
+//import './About.css';
 const About = () => {
-    return (<div>Hello,About</div>)
-};
+    const sections = [<p>Mession</p>, <p>History</p>];
+    return <GeneralBackground sections={sections} />;
+  };
   
 export default About;
