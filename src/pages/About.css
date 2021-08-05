@@ -1,0 +1,21 @@
+#mission,
+#history {
+  min-height: 50vh;
+}
+#mission {
+    background-color: #fffbf0;
+}
+#history {
+    background-color: white;
+}
+#title {
+    text-align: start;
+}
+#subtitle1,
+#subtitle2 {
+    text-align: start;
+}
+#text1,
+#text2 {
+    vertical-align: middle;
+}
