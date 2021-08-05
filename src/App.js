@@ -3,6 +3,7 @@ import Future from './pages/Future';
 import Sponsors from './pages/Sponsors';
 import Navbar from './components/Navbar/Navbar';
 import './App.css';
+import Home from './pages/Home';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Switch>
           <Route path='/future' component={Future} />
           <Route path='/sponsors' component={Sponsors} />
+          <Route path='/home' component={Home} />
         </Switch>
       </div>
     </Router>
