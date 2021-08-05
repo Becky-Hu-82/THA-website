@@ -1,0 +1,46 @@
+.contactContainer {
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.inputGroup {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+input,
+textarea {
+  border: 0.05em solid #bbb7b7;
+  border-radius: 0.5em;
+  padding: 0.15em 0.5em;
+  margin: 0.25em 0.5em;
+  border-color: #94af26;
+  border-width: 0.2em;
+  background-color: #fffbf0;
+}
+
+input {
+  height: 1.6em;
+}
+
+label {
+  margin: 0 0 0 0.5em;
+  font-family: Poppins;
+  color: #94af26;
+  font-size: 16px;
+}
+
+.paragraphInput {
+  height: 6em;
+}
+
+#emailInputGroup,
+#msgInputGroup,
+.contactUsRow1 {
+  width: 100%;
+}
+#emailInput,
+#msgInput {
+  width: 91%;
+}

@@ -1,6 +1,7 @@
 .yellowBg,
 .whiteBg {
   min-height: 50vh;
+  margin-top: 0;
 }
 
 .yellowBg {
