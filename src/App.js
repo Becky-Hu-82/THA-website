@@ -4,6 +4,7 @@ import Sponsors from './pages/Sponsors';
 import Navbar from './components/Navbar/Navbar';
 import ContactUs from './pages/ContactUs';
 import './App.css';
+import Home from './pages/Home';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Route path='/future' component={Future} />
           <Route path='/sponsors' component={Sponsors} />
           <Route path='/contactUs' component={ContactUs} />
+          <Route path='/home' component={Home} />
         </Switch>
       </div>
     </Router>

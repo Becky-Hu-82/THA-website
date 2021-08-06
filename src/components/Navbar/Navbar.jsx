@@ -28,6 +28,12 @@ const Navbar = () => {
       >
         Contact Us
       </Link>
+      <Link
+        to='/home'
+        className={isCurrentPage('/home') ? 'nav-link-active' : 'nav-link'}
+      >
+        Home
+      </Link>
     </div>
   );
 };
