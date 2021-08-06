@@ -3,6 +3,7 @@ import Future from './pages/Future';
 import Sponsors from './pages/Sponsors';
 import Navbar from './components/Navbar/Navbar';
 import ContactUs from './pages/ContactUs';
+import About from './pages/About';
 import './App.css';
 import Home from './pages/Home';
 
@@ -16,6 +17,7 @@ function App() {
           <Route path='/sponsors' component={Sponsors} />
           <Route path='/contactUs' component={ContactUs} />
           <Route path='/home' component={Home} />
+          <Route path='/about' component={About} />
         </Switch>
       </div>
     </Router>

@@ -1,0 +1,30 @@
+#mission,
+#history {
+  min-height: 50vh;
+}
+#mission {
+    background-color: #fffbf0;
+}
+#history {
+    background-color: white;
+}
+#title {
+    text-align: left;
+    margin: 2% 10% 0% 10%;
+    color: #195028;
+    font-size:45px;
+}
+#subtitle1,
+#subtitle2 {
+    text-align: left;
+    margin: 2% 13% 0% 13%;
+    color: #195028;
+    font-size:28px;
+}
+#text1,
+#text2 {
+    vertical-align: middle;
+    margin: 2% 13% 0% 13%;
+    color: #195028;
+    font-size:17px;
+}

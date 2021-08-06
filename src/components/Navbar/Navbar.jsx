@@ -10,7 +10,7 @@ const Navbar = () => {
 
   return (
     <div id='navbar'>
-      <img src="/assets/logo.png" alt="" id='logo-image'/>
+      <img src='/assets/logo.png' alt='' id='logo-image' />
       <text id='logo-text'>TreeHouse Academia</text>
       <Link
         to='/sponsors'
@@ -35,6 +35,12 @@ const Navbar = () => {
         className={isCurrentPage('/home') ? 'nav-link-active' : 'nav-link'}
       >
         Home
+      </Link>
+      <Link
+        to='/about'
+        className={isCurrentPage('/about') ? 'nav-link-active' : 'nav-link'}
+      >
+        About
       </Link>
     </div>
   );
