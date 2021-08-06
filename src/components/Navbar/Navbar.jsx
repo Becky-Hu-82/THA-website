@@ -10,6 +10,8 @@ const Navbar = () => {
 
   return (
     <div id='navbar'>
+      <img src="/assets/logo.png" alt="" id='logo-image'/>
+      <text id='logo-text'>TreeHouse Academia</text>
       <Link
         to='/sponsors'
         className={isCurrentPage('/sponsors') ? 'nav-link-active' : 'nav-link'}
