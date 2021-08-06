@@ -26,10 +26,12 @@
   font-family: Poppins;
   font-size: 18px;
   color: white;
-  margin-right: 20px;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
   text-decoration: none;
 }
 
+.nav-link:hover,
 .nav-link-active {
   background-color: #aec359;
   border-radius: 20px;
