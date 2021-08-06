@@ -8,7 +8,7 @@ import './GeneralBackground.css';
 
 const GeneralBackground = ({ sections }) => {
   return (
-    <div>
+    <div id='generalBackground'>
       {sections.map((section, idx) => (
         <div className={idx / 2 === 0 ? 'yellowBg' : 'whiteBg'}>{section}</div>
       ))}

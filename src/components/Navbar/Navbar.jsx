@@ -10,38 +10,47 @@ const Navbar = () => {
 
   return (
     <div id='navbar'>
-      <img src='/assets/logo.png' alt='' id='logo-image' />
-      <text id='logo-text'>TreeHouse Academia</text>
-      <Link
-        to='/sponsors'
-        className={isCurrentPage('/sponsors') ? 'nav-link-active' : 'nav-link'}
-      >
-        Sponsors
-      </Link>
-      <Link
-        to='/future'
-        className={isCurrentPage('/future') ? 'nav-link-active' : 'nav-link'}
-      >
-        Future
-      </Link>
-      <Link
-        to='/contactUs'
-        className={isCurrentPage('/contactUs') ? 'nav-link-active' : 'nav-link'}
-      >
-        Contact Us
-      </Link>
-      <Link
-        to='/home'
-        className={isCurrentPage('/home') ? 'nav-link-active' : 'nav-link'}
-      >
-        Home
-      </Link>
-      <Link
-        to='/about'
-        className={isCurrentPage('/about') ? 'nav-link-active' : 'nav-link'}
-      >
-        About
-      </Link>
+      <div className='navbarLogoGroup'>
+        <img src='/assets/logo.png' alt='' id='logo-image' />
+        <text id='logo-text'>TreeHouse Academia</text>
+      </div>
+
+      <div className='navbarTextGroup'>
+        <Link
+          to='/home'
+          className={isCurrentPage('/home') ? 'nav-link-active' : 'nav-link'}
+        >
+          Home
+        </Link>
+        <Link
+          to='/about'
+          className={isCurrentPage('/about') ? 'nav-link-active' : 'nav-link'}
+        >
+          About
+        </Link>
+        <Link
+          to='/future'
+          className={isCurrentPage('/future') ? 'nav-link-active' : 'nav-link'}
+        >
+          Future
+        </Link>
+        <Link
+          to='/sponsors'
+          className={
+            isCurrentPage('/sponsors') ? 'nav-link-active' : 'nav-link'
+          }
+        >
+          Sponsors
+        </Link>
+        <Link
+          to='/contactUs'
+          className={
+            isCurrentPage('/contactUs') ? 'nav-link-active' : 'nav-link'
+          }
+        >
+          Contact Us
+        </Link>
+      </div>
     </div>
   );
 };

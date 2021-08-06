@@ -1,7 +1,11 @@
+#generalBackground {
+  padding-top: 4em;
+}
+
 .yellowBg,
 .whiteBg {
-  min-height: 50vh;
-  margin-top: 0;
+  min-height: 60vh;
+  margin: 0%;
 }
 
 .yellowBg {
