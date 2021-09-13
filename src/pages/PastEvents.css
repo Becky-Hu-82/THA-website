@@ -1,0 +1,16 @@
+#pastevents {
+    background-color: #fffbf0;
+    height: 100vh;
+  }
+  #image {
+    width: 100vw;
+    height: 100vh;
+    margin-top: 4.8em;
+  }
+  .we {
+    color: #195028;
+    font-size: 100px;
+    vertical-align: middle;
+    margin-top: 0;
+  }
+  

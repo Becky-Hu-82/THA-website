@@ -35,6 +35,12 @@ const Navbar = () => {
           Future
         </Link>
         <Link
+          to='/pastevents'
+          className={isCurrentPage('/pastevents') ? 'nav-link-active' : 'nav-link'}
+        >
+          Past Events
+        </Link>
+        <Link
           to='/sponsors'
           className={
             isCurrentPage('/sponsors') ? 'nav-link-active' : 'nav-link'
