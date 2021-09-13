@@ -6,6 +6,7 @@ import ContactUs from './pages/ContactUs';
 import About from './pages/About';
 import './App.css';
 import Home from './pages/Home';
+import PastEvents from './pages/PastEvents';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path='/future' component={Future} />
           <Route path='/sponsors' component={Sponsors} />
           <Route path='/contactUs' component={ContactUs} />
+          <Route path='/pastEvents' component={PastEvents} />
         </Switch>
       </div>
     </Router>

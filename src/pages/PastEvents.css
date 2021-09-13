@@ -2,15 +2,11 @@
     background-color: #fffbf0;
     height: 100vh;
   }
-  #image {
-    width: 100vw;
-    height: 100vh;
-    margin-top: 4.8em;
-  }
-  .we {
-    color: #195028;
-    font-size: 100px;
-    vertical-align: middle;
-    margin-top: 0;
-  }
-  
+#midLine {
+    width: 2px;
+    height: 100%;
+    background: #d6d6d6;
+    position: absolute;
+    left: 50%;
+
+}
