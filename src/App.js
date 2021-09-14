@@ -19,7 +19,7 @@ function App() {
           <Route path='/future' component={Future} />
           <Route path='/sponsors' component={Sponsors} />
           <Route path='/contactUs' component={ContactUs} />
-          <Route path='/pastEvents' component={PastEvents} />
+          <Route path='/pastevents' component={PastEvents} />
         </Switch>
       </div>
     </Router>

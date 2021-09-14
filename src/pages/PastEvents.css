@@ -1,11 +1,10 @@
 #pastevents {
-    background-color: #fffbf0;
-    height: 100vh;
+  background-color: #fffbf0;
   }
 #midLine {
     width: 2px;
     height: 100%;
-    background: #d6d6d6;
+    background: #195028;
     position: absolute;
     left: 50%;
 
