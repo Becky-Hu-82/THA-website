@@ -1,11 +1,21 @@
-//import './PastEvents.css';
+import './PastEvents.css';
 const PastEvents = () => {
   return (
-    < div class = "datagrid-mac-ower">
-      < ul class = "time-vertical" id = "ower-result">
-      </ul>
-    </div>
-    )
+    <div class="timeline">
+    <ul>
+        <li>
+            <div>
+                 2002 
+            </div>
+        </li>
+        <li>
+            <div>
+                2005
+            </div>
+        </li>
+    </ul>
+  </div>
+  )
 };
   
   
