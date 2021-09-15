@@ -1,0 +1,15 @@
+.datagrid-mac-ower {
+    width: 300px;
+    height: 480px;
+    margin-left: 20px;
+    overflow-y: scroll;
+    }
+    .time-vertical {
+    list-style-type: none;
+    border-left: 2px solid #000;
+    margin-left: 10px;
+    padding: 0px;
+    }
+    .datagrid-btable{
+    width:320px;
+    }
