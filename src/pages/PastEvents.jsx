@@ -8,43 +8,101 @@ const PastEvents = () => {
         </ul>
       </div>
       <div class="timeline" id = "part1">
+
         <div id = "years" >
           <h1 id = "2018">
            2018
           </h1>
         </div>
+        
       <ul id = "p">
           <li>
-              <div id = "text">
+              <div id = "block1">
+                <h1 id = "word1">
+                  字
+                </h1>
                 <p>
-                  Davis, California, 
+                  图片
                 </p>
+              </div>
+          </li>
+
+          <li>
+              <div id = "text">
+                <h1 id = "word3">
+                  字
+                </h1>
+                <p id = "word5">
+                  空
+                </p>
+              </div>
+          </li>
+          
+
+          <li>
+              <div id = "block2">
+                <h1 id = "word2">
+                  字
+                </h1>
                 <p>
-                  July, 2018 
+                  图片
+                </p>
+              </div>
+          </li>
+
+          <li>
+              <div id = "text">
+                <h1 id = "word4">
+                  字
+                </h1>
+                <p id = "word5">
+                  空
                 </p>
               </div>
           </li>
           <li>
-              <div id = "text">
+              <div id = "block3">
+                <h1 id = "word1">
+                  字
+                </h1>
                 <p>
-                  August, 26th, 2018
+                  图片
+                </p>
+              </div>
+          </li>
+
+          <li>
+              <div id = "text">
+                <h1 id = "word3">
+                  字
+                </h1>
+                <p id = "word5">
+                  空
                 </p>
               </div>
           </li>
           <li>
-              <div id = "text">
+              <div id = "block4">
+                <h1 id = "word2">
+                  字
+                </h1>
                 <p>
-                  November, 10th, 2018
+                  图片
                 </p>
               </div>
           </li>
+
           <li>
               <div id = "text">
-                <p>
-                  November, 18th, 2018
+                <h1 id = "word4">
+                  字
+                </h1>
+                <p id = "word5">
+                  空
                 </p>
               </div>
           </li>
+          
       </ul>
     </div>
     <div class = "vline2"> 
@@ -59,23 +117,47 @@ const PastEvents = () => {
         </h1>
       </div>
       <ul id = "p">
+
           <li>
-              <div id = "text">
+              <div id = "block1">
+                <h1 id = "word1">
+                  字
+                </h1>
                 <p>
-                  December 29th, 2018 
-                </p>
-                <p>
-                  to
-                </p>
-                <p>
-                  January 9th, 2019
+                  图片
                 </p>
               </div>
           </li>
+
           <li>
               <div id = "text">
+                <h1 id = "word3">
+                  字
+                </h1>
+                <p id = "word5">
+                  空
+                </p>
+              </div>
+          </li>
+
+          <li>
+              <div id = "block2">
+                <h1 id = "word2">
+                  字
+                </h1>
                 <p>
-                  April 9th, 2019
+                  图片
+                </p>
+              </div>
+          </li>
+
+          <li>
+              <div id = "text">
+                <h1 id = "word4">
+                  字
+                </h1>
+                <p id = "word5">
+                  空
                 </p>
               </div>
           </li>
