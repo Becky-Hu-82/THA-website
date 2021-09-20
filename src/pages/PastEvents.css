@@ -206,6 +206,7 @@
 
 #word1 {
   margin-right: -180%;
+  margin-bottom: -30%;
   font-family: 'Helvetica';
   font-style: oblique;
   font-weight: bold;
@@ -213,6 +214,7 @@
 }
 #word2 {
   margin-left: -200%;
+  margin-bottom: -10%;
   font-family: 'Helvetica';
   font-style: oblique;
   font-weight: bold;
@@ -230,4 +232,9 @@
   font-family: 'Minion Variable concept (regular)';
   font-size: 12pt;
   color: black;
+}
+#image {
+  width: 400px;
+  height: 267px;
+  margin-bottom: 5%;
 }

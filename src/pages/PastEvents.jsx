@@ -1,4 +1,10 @@
 import './PastEvents.css';
+import img1 from './Img/Img1.jpg'
+import img2 from './Img/Img2.jpg'
+import img3 from './Img/Img3.jpg'
+import img4 from './Img/Img4.jpg'
+import img5 from './Img/Img5.jpg'
+import img6 from './Img/Img6.jpg'
 const PastEvents = () => {
   return (
     <div id = "pastevents">
@@ -21,9 +27,7 @@ const PastEvents = () => {
                 <h1 id = "word1">
                   THA Founded
                 </h1>
-                <p>
-                  图片
-                </p>
+                <img src={img1} id='image' />
               </div>
           </li>
 
@@ -45,9 +49,7 @@ const PastEvents = () => {
                 <h1 id = "word2">
                   1st Fundrasier
                 </h1>
-                <p>
-                  图片
-                </p>
+                <img src={img2} id='image' />
               </div>
           </li>
 
@@ -69,9 +71,7 @@ const PastEvents = () => {
                 <h1 id = "word1">
                 2nd Fundrasier
                 </h1>
-                <p>
-                  图片
-                </p>
+                <img src={img3} id='image' />
               </div>
           </li>
 
@@ -99,9 +99,7 @@ const PastEvents = () => {
                 <h1 id = "word2">
                 3rd Fundrasier
                 </h1>
-                <p>
-                  图片
-                </p>
+                <img src={img4} id='image' />
               </div>
           </li>
 
@@ -144,9 +142,7 @@ const PastEvents = () => {
                 <h1 id = "word1">
                   Donation Trip
                 </h1>
-                <p>
-                  图片
-                </p>
+                <img src={img5} id='image' />
               </div>
           </li>
 
@@ -169,9 +165,7 @@ const PastEvents = () => {
                 <h1 id = "word2">
                 4th Fundrasier
                 </h1>
-                <p>
-                  图片
-                </p>
+                <img src={img6} id='image' />
               </div>
           </li>
 
