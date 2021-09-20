@@ -8,7 +8,7 @@ const PastEvents = () => {
            2018
           </h1>
         </div>
-      <ul>
+      <ul id = "p">
           <li>
               <div>
                 <p>
@@ -48,7 +48,7 @@ const PastEvents = () => {
             2019
         </h1>
       </div>
-      <ul>
+      <ul id = "p">
           <li>
               <div>
                 <p>
