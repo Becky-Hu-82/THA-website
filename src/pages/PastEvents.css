@@ -206,16 +206,28 @@
 
 #word1 {
   margin-right: -180%;
-
+  font-family: 'Helvetica';
+  font-style: oblique;
+  font-weight: bold;
+  font-size: 23pt;
 }
 #word2 {
   margin-left: -200%;
+  font-family: 'Helvetica';
+  font-style: oblique;
+  font-weight: bold;
+  font-size: 23pt;
 }
 #word3 {
   margin-left: -330%;
-  margin-top: -25%;
+  margin-top: -30%;
 }
 #word4 {
   margin-right: -300%;
-  margin-top: -25%;
+  margin-top: -30%;
+}
+#word5 {
+  font-family: 'Minion Variable concept (regular)';
+  font-size: 12pt;
+  color: black;
 }
