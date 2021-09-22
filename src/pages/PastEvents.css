@@ -1,0 +1,240 @@
+#pastevents {
+    background-color: #fffbf0;
+    padding-bottom: 15%;
+}
+#years {
+  transform: rotate(90deg); 
+  margin-left: 2%;
+  font-family: 'Helvetica';
+  font-style: oblique;
+  font-weight: bold;
+  font-size: 15pt;
+  color:#AFC05A;
+  margin-top: -6%;
+  position: relative;
+  top: 100px;
+}
+
+#p {
+  margin-top: 150px;
+}
+#text {
+  font-family: 'Athelas';
+  font-weight: bold;
+  font-size: 15pt;
+  color:#AFAFAF;
+}
+#bottomline {
+  font-family: 'Helvetica';
+  font-style: oblique;
+  font-weight: bold;
+  font-size: 15pt;
+  color:#294F2C;
+  margin-left: 2%;
+}
+.timeline ul li {
+  list-style-type: none;
+  position: relative;
+  width: 6px;
+  margin: 0 auto;
+  padding-top: 50px;
+  background: #195028;
+}
+   
+
+  .timeline ul li div {
+    position: relative;
+    bottom: 0;
+    width: 400px;
+    padding: 15px;
+  }
+   
+  .timeline ul li div::before {
+    content: '';
+    position: absolute;
+    bottom: 12px;
+    width: 0;
+    height: 0;
+  }
+  
+  .timeline ul li:nth-child(1) div {
+    left: 45px;
+  }
+   
+  .timeline ul li:nth-child(1) div::before {
+    height: 2px;
+	  width: 500px;
+	  background: #195028;
+    left: -10%;
+  }
+  .timeline ul li:nth-child(3) div {
+    left: -439px;
+  }
+   
+  .timeline ul li:nth-child(3) div::before {
+    height: 2px;
+	  width: 500px; 
+	  background: #195028;
+    right: -3%;
+  }
+  .timeline ul li:nth-child(2) div {
+    left: 45px;
+  }
+   
+  .timeline ul li:nth-child(2) div::before {
+    height: 2px;
+	  width: 500px;
+	  background: #fffbf0;
+    left: -8%;
+  }
+  .timeline ul li:nth-child(4) div {
+    left: -439px;
+  }
+   
+  .timeline ul li:nth-child(4) div::before {
+    height: 2px;
+	  width: 500px; 
+	  background: #fffbf0;
+    right: 2%;
+  }
+  .timeline ul li:nth-child(1) :after {
+    content: '';
+    position: absolute;
+    left: -42px;
+    bottom: 0;
+    transform: translateX(-50%);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #195028;
+  }
+
+  .timeline ul li:nth-child(3) :after {
+    content: '';
+    position: absolute;
+    right: -42px;
+    bottom: 0;
+    transform: translateX(-50%);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #195028;
+  }
+
+  .timeline ul li:nth-child(5) div {
+    left: 45px;
+  }
+   
+  .timeline ul li:nth-child(5) div::before {
+    height: 2px;
+	  width: 500px;
+	  background: #195028;
+    left: -10%;
+  }
+  .timeline ul li:nth-child(7) div {
+    left: -439px;
+  }
+   
+  .timeline ul li:nth-child(7) div::before {
+    height: 2px;
+	  width: 500px; 
+	  background: #195028;
+    right: -3%;
+  }
+  .timeline ul li:nth-child(6) div {
+    left: 45px;
+  }
+   
+  .timeline ul li:nth-child(6) div::before {
+    height: 2px;
+	  width: 500px;
+	  background: #fffbf0;
+    left: -8%;
+  }
+  .timeline ul li:nth-child(8) div {
+    left: -439px;
+  }
+   
+  .timeline ul li:nth-child(8) div::before {
+    height: 2px;
+	  width: 500px; 
+	  background: #fffbf0;
+    right: 2%;
+  }
+  .timeline ul li:nth-child(5) :after {
+    content: '';
+    position: absolute;
+    left: -42px;
+    bottom: 0;
+    transform: translateX(-50%);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #195028;
+  }
+
+  .timeline ul li:nth-child(7) :after {
+    content: '';
+    position: absolute;
+    right: -42px;
+    bottom: 0;
+    transform: translateX(-50%);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #195028;
+  }
+
+ .vline ul li {
+  list-style-type: none;
+  position: relative;
+  width: 6px;
+  margin: 0 auto;
+  padding-top: 50px;
+  background: #195028;
+}
+
+.vline2 ul li {
+  list-style-type: none;
+  position: relative;
+  width: 6px;
+  margin: 0 auto;
+  margin-top: -2%;
+  padding-top: 150px;
+  background: #195028;
+}
+
+#word1 {
+  margin-right: -180%;
+  margin-bottom: -30%;
+  font-family: 'Helvetica';
+  font-style: oblique;
+  font-weight: bold;
+  font-size: 23pt;
+}
+#word2 {
+  margin-left: -200%;
+  margin-bottom: -10%;
+  font-family: 'Helvetica';
+  font-style: oblique;
+  font-weight: bold;
+  font-size: 23pt;
+}
+#word3 {
+  margin-left: -330%;
+  margin-top: -30%;
+}
+#word4 {
+  margin-right: -300%;
+  margin-top: -30%;
+}
+#word5 {
+  font-family: 'Minion Variable concept (regular)';
+  font-size: 12pt;
+  color: black;
+}
+#image {
+  width: 400px;
+  height: 267px;
+  margin-bottom: 5%;
+}
