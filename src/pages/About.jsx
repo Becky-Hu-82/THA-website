@@ -1,6 +1,37 @@
 import GeneralBackground from '../components/GeneralBackground/GeneralBackground';
 
+import Suiyi from './Img/test.jpg'
+
+
 import './About.css';
+
+function Avatar(props) {
+  const nameStyle = {
+    fontFamily:'poppins',
+    fontStyle:'mixed',
+    fontWeight:'bold',
+    fontSize:"20",
+    color:'#4E6735'
+  }
+  const occupationStyle = {
+    fontFamily:'poppins',
+    fontStyle:'mixed',
+    fontSize:"20",
+    color:'#4E6735'
+  }
+  return <div>
+    <div>
+      <img alt="NA" src={props.img} width="175" height="199"/>
+    </div>
+    <div>
+      <text style={nameStyle}>{props.name}</text>
+    </div>
+    <div>
+      <text style={occupationStyle}>{props.occupation}</text>
+    </div>
+  </div>;
+}
+
 const About = () => {
   const section1 = (
     <div id='mission'>
@@ -39,8 +70,25 @@ const About = () => {
       </p>
     </div>
   );
+  
+  //添加图片先import，然后加到imgarr里边，最后才能在Avatar函数里边用
+  const section3 = (
+    <div id='members'>
+      <h1 id='title'>Meet Our Team</h1>
+      <h2 className= 'aboutMemberTitle'>General Manager</h2>
+      <div className='aboutMemberAvatars'>
+        <Avatar img={Suiyi} name="Suiyi" occupation="president"/>
+        
+        <Avatar img={Suiyi} name="Suiyi" occupation="president"/>
+        <Avatar img={Suiyi} name="Suiyi" occupation="president"/>
+      </div>
+      <h2 className= 'aboutMemberTitle'>Financial Team</h2>
+      <h2 className= 'aboutMemberTitle'>Techinical Team</h2>
+      <h2 className= 'aboutMemberTitle'>Design Team</h2>
+    </div>
+  );
 
-  const sections = [section1, section2];
+  const sections = [section1, section2, section3];
   return <GeneralBackground sections={sections} />;
 };
 export default About;
