@@ -75,16 +75,35 @@ const About = () => {
   const section3 = (
     <div id='members'>
       <h1 id='title'>Meet Our Team</h1>
+      
       <h2 className= 'aboutMemberTitle'>General Manager</h2>
       <div className='aboutMemberAvatars'>
-        <Avatar img={Suiyi} name="Suiyi" occupation="president"/>
-        
-        <Avatar img={Suiyi} name="Suiyi" occupation="president"/>
-        <Avatar img={Suiyi} name="Suiyi" occupation="president"/>
+        <div className='aboutIndividualAvatar'><Avatar img={Suiyi} name="Suiyi" occupation="president"/></div>
       </div>
+      
       <h2 className= 'aboutMemberTitle'>Financial Team</h2>
+      <div className='aboutMemberAvatars'>
+        <div className='aboutIndividualAvatar'><Avatar img={Suiyi} name="Suiyi" occupation="president"/></div>
+        <div className='aboutIndividualAvatar'><Avatar img={Suiyi} name="Suiyi" occupation="president"/></div>
+        <div className='aboutIndividualAvatar'><Avatar img={Suiyi} name="Suiyi" occupation="president"/></div>
+      </div>
+      
       <h2 className= 'aboutMemberTitle'>Techinical Team</h2>
+      <div className='aboutMemberAvatars'>
+        <div className='aboutIndividualAvatar'><Avatar img={Suiyi} name="Suiyi" occupation="president"/></div>
+        <div className='aboutIndividualAvatar'><Avatar img={Suiyi} name="Suiyi" occupation="president"/></div>
+        <div className='aboutIndividualAvatar'><Avatar img={Suiyi} name="Suiyi" occupation="president"/></div>
+        <div className='aboutIndividualAvatar'><Avatar img={Suiyi} name="Suiyi" occupation="president"/></div>
+        <div className='aboutIndividualAvatar'><Avatar img={Suiyi} name="Suiyi" occupation="president"/></div>
+        <div className='aboutIndividualAvatar'><Avatar img={Suiyi} name="Suiyi" occupation="president"/></div>
+      </div>
+      
       <h2 className= 'aboutMemberTitle'>Design Team</h2>
+      <div className='aboutMemberAvatars'>
+        <div className='aboutIndividualAvatar'><Avatar img={Suiyi} name="Suiyi" occupation="president"/></div>
+        <div className='aboutIndividualAvatar'><Avatar img={Suiyi} name="Suiyi" occupation="president"/></div>
+        <div className='aboutIndividualAvatar'><Avatar img={Suiyi} name="Suiyi" occupation="president"/></div>
+      </div>
     </div>
   );
 
