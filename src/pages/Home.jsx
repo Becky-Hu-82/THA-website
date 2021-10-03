@@ -1,6 +1,6 @@
 import GeneralBackground from '../components/GeneralBackground/GeneralBackground';
 import './Home.css';
-import img from './Img/WePage.png'
+import img from './Img/WePage.jpg'
 const Home = () => {
     //const sections = [<p>we</p>];
     //return <GeneralBackground sections={sections} />;
