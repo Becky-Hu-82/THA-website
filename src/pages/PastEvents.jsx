@@ -1,10 +1,10 @@
 import './PastEvents.css';
-import img1 from './Img/Img1.jpg'
-import img2 from './Img/Img2.jpg'
-import img3 from './Img/Img3.jpg'
-import img4 from './Img/Img4.jpg'
-import img5 from './Img/Img5.jpg'
-import img6 from './Img/Img6.jpg'
+import img1 from './Img/Img1.PNG'
+import img2 from './Img/Img2.PNG'
+import img3 from './Img/Img3.PNG'
+import img4 from './Img/Img4.PNG'
+import img5 from './Img/Img5.PNG'
+import img6 from './Img/Img6.PNG'
 const PastEvents = () => {
   return (
     <div id = "pastevents">
@@ -24,10 +24,8 @@ const PastEvents = () => {
       <ul id = "p">
           <li>
               <div id = "block1">
-                <h1 id = "word1">
-                  THA Founded
-                </h1>
-                <img src={img1} id='image' />
+                
+                <img src={img1} id='image1' />
               </div>
           </li>
 
@@ -46,10 +44,8 @@ const PastEvents = () => {
 
           <li>
               <div id = "block2">
-                <h1 id = "word2">
-                  1st Fundrasier
-                </h1>
-                <img src={img2} id='image' />
+                
+                <img src={img2} id='image2' />
               </div>
           </li>
 
@@ -68,10 +64,8 @@ const PastEvents = () => {
           </li>
           <li>
               <div id = "block3">
-                <h1 id = "word1">
-                2nd Fundrasier
-                </h1>
-                <img src={img3} id='image' />
+                
+                <img src={img3} id='image3' />
               </div>
           </li>
 
@@ -96,10 +90,8 @@ const PastEvents = () => {
           </li>
           <li>
               <div id = "block4">
-                <h1 id = "word2">
-                3rd Fundrasier
-                </h1>
-                <img src={img4} id='image' />
+                
+                <img src={img4} id='image4' />
               </div>
           </li>
 
@@ -139,10 +131,8 @@ const PastEvents = () => {
 
           <li>
               <div id = "block1">
-                <h1 id = "word1">
-                  Donation Trip
-                </h1>
-                <img src={img5} id='image' />
+                
+                <img src={img5} id='image5' />
               </div>
           </li>
 
@@ -162,10 +152,8 @@ const PastEvents = () => {
 
           <li>
               <div id = "block2">
-                <h1 id = "word2">
-                4th Fundrasier
-                </h1>
-                <img src={img6} id='image' />
+                
+                <img src={img6} id='image6' />
               </div>
           </li>
 

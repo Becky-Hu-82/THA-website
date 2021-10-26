@@ -233,8 +233,44 @@
   font-size: 12pt;
   color: black;
 }
-#image {
-  width: 400px;
-  height: 267px;
-  margin-bottom: 5%;
+#image1 {
+  width: 825px;
+  height: 550px;
+  margin-bottom: -30%;
+  margin-left:-20%
+}
+
+#image2 {
+  width: 825px;
+  height: 550px;
+  margin-bottom: -30%;
+  margin-left: -90%;
+}
+
+#image3 {
+  width: 825px;
+  height: 550px;
+  margin-bottom: -30%;
+  margin-left:-20%
+}
+
+#image4 {
+  width: 825px;
+  height: 550px;
+  margin-bottom: -15%;
+  margin-left: -90%;
+}
+
+#image5 {
+  width: 825px;
+  height: 550px;
+  margin-bottom: -30%;
+  margin-left:-20%
+}
+
+#image6 {
+  width: 825px;
+  height: 550px;
+  margin-bottom: -40%;
+  margin-left: -90%;
 }
