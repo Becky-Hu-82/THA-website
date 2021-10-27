@@ -17,7 +17,7 @@ const PastEvents = () => {
 
         <div id = "years" >
           <h1 id = "2018">
-           2018
+           2 0 1 8
           </h1>
         </div>
         
@@ -124,7 +124,7 @@ const PastEvents = () => {
     <div class="timeline" id = "part2">
       <div id = "years">
         <h1 id = "2019">
-            2019
+            2 0 1 9
         </h1>
       </div>
       <ul id = "p">
