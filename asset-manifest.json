@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/THA-website/static/css/main.2d8a8fad.chunk.css",
-    "main.js": "/THA-website/static/js/main.0ca060b4.chunk.js",
-    "main.js.map": "/THA-website/static/js/main.0ca060b4.chunk.js.map",
+    "main.css": "/THA-website/static/css/main.45ee2b10.chunk.css",
+    "main.js": "/THA-website/static/js/main.574d52bc.chunk.js",
+    "main.js.map": "/THA-website/static/js/main.574d52bc.chunk.js.map",
     "runtime-main.js": "/THA-website/static/js/runtime-main.871031c4.js",
     "runtime-main.js.map": "/THA-website/static/js/runtime-main.871031c4.js.map",
     "static/js/2.f3307455.chunk.js": "/THA-website/static/js/2.f3307455.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.24bba505.chunk.js": "/THA-website/static/js/3.24bba505.chunk.js",
     "static/js/3.24bba505.chunk.js.map": "/THA-website/static/js/3.24bba505.chunk.js.map",
     "index.html": "/THA-website/index.html",
-    "static/css/main.2d8a8fad.chunk.css.map": "/THA-website/static/css/main.2d8a8fad.chunk.css.map",
+    "static/css/main.45ee2b10.chunk.css.map": "/THA-website/static/css/main.45ee2b10.chunk.css.map",
     "static/js/2.f3307455.chunk.js.LICENSE.txt": "/THA-website/static/js/2.f3307455.chunk.js.LICENSE.txt",
     "static/media/Img1.034e6021.jpg": "/THA-website/static/media/Img1.034e6021.jpg",
     "static/media/Img2.7e175e25.jpg": "/THA-website/static/media/Img2.7e175e25.jpg",
@@ -23,7 +23,7 @@
   "entrypoints": [
     "static/js/runtime-main.871031c4.js",
     "static/js/2.f3307455.chunk.js",
-    "static/css/main.2d8a8fad.chunk.css",
-    "static/js/main.0ca060b4.chunk.js"
+    "static/css/main.45ee2b10.chunk.css",
+    "static/js/main.574d52bc.chunk.js"
   ]
 }
