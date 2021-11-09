@@ -1,26 +1,26 @@
 import GeneralBackground from '../components/GeneralBackground/GeneralBackground';
 
-import Suiyi from './Img/test.jpg'
-import ReneeMai from './Img/test.jpg'
-import XinyueLiu from './Img/test.jpg'
-import ShuxingYang from './Img/test.jpg'
+import Suiyi from './Img/Yi Sui.jpg'
+import ReneeMai from './Img/Renee Mai.jpg'
+import XinyueLiu from './Img/Xinyue Liu.jpg'
+import ShuxingYang from './Img/Shuxing Yang.jpg'
 
-import PriscillaZheng from './Img/test.jpg'
-import ShiyunZhao from './Img/test.jpg'
+import PriscillaZheng from './Img/Priscilla.jpg'
+import ShiyunZhao from './Img/shiyun zhao.jpg'
 
-import YicongDeng from './Img/test.jpg'
-import ZhouShen from './Img/test.jpg'
-import XipingSun from './Img/test.jpg'
-import JunyaoHu from './Img/test.jpg'
-import QiaoqiaoSun from './Img/test.jpg'
+import YicongDeng from './Img/NA.jpg'
+import ZhouShen from './Img/zhou shen.jpg'
+import XipingSun from './Img/xiping sun.jpg'
+import JunyaoHu from './Img/Junyao Hu.jpg'
+import QiaoqiaoSun from './Img/qiaoqiao sun.jpg'
 
-import YiChen from './Img/test.jpg'
-import BoHu from './Img/test.jpg'
-import JialinHe from './Img/test.jpg'
+import YiChen from './Img/yi chen.jpg'
+import BoHu from './Img/NA.jpg'
+import JialinHe from './Img/NA.jpg'
 
-import JunyangDu from './Img/test.jpg'
+import JunyangDu from './Img/Junyang Du.jpg'
 import QiqiPan from './Img/qiqi Pan.jpg'
-import NA from './Img/test.jpg'
+import NA from './Img/NA.jpg'
 
 
 import './About.css';
@@ -133,7 +133,7 @@ const About = () => {
 
       <h2 id = 'memberSubtitle' className= 'aboutMemberTitle'>Human Resource</h2>
       <div className='aboutMemberAvatars'>
-        <div id = 'memberSection' className='aboutIndividualAvatar'><Avatar img={ReneeMai} name="Renee Mai" occupation="HR Team Leader"/></div>
+        <div id = 'memberLastSection' className='aboutIndividualAvatar'><Avatar img={ReneeMai} name="Renee Mai" occupation="HR Team Leader"/></div>
       </div>
     </div>
   );
