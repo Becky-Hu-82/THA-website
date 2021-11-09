@@ -1,6 +1,26 @@
 import GeneralBackground from '../components/GeneralBackground/GeneralBackground';
 
 import Suiyi from './Img/test.jpg'
+import ReneeMai from './Img/test.jpg'
+import XinyueLiu from './Img/test.jpg'
+import ShuxingYang from './Img/test.jpg'
+
+import PriscillaZheng from './Img/test.jpg'
+import ShiyunZhao from './Img/test.jpg'
+
+import YicongDeng from './Img/test.jpg'
+import ZhouShen from './Img/test.jpg'
+import XipingSun from './Img/test.jpg'
+import JunyaoHu from './Img/test.jpg'
+import QiaoqiaoSun from './Img/test.jpg'
+
+import YiChen from './Img/test.jpg'
+import BoHu from './Img/test.jpg'
+import JialinHe from './Img/test.jpg'
+
+import JunyangDu from './Img/test.jpg'
+import QiqiPan from './Img/qiqi Pan.jpg'
+import NA from './Img/test.jpg'
 
 
 import './About.css';
@@ -8,14 +28,12 @@ import './About.css';
 function Avatar(props) {
   const nameStyle = {
     fontFamily:'poppins',
-    fontStyle:'mixed',
     fontWeight:'bold',
     fontSize:"20",
     color:'#4E6735'
   }
   const occupationStyle = {
     fontFamily:'poppins',
-    fontStyle:'mixed',
     fontSize:"20",
     color:'#4E6735'
   }
@@ -76,33 +94,46 @@ const About = () => {
     <div id='members'>
       <h1 id='title'>Meet Our Team</h1>
       
-      <h2 className= 'aboutMemberTitle'>General Manager</h2>
+      <h2 id = 'memberSubtitle' className= 'aboutMemberTitle'>General Managers</h2>
       <div className='aboutMemberAvatars'>
-        <div className='aboutIndividualAvatar'><Avatar img={Suiyi} name="Suiyi" occupation="president"/></div>
+        <div id = 'memberSection' className='aboutIndividualAvatar'><Avatar img={Suiyi} name="Sui Yi" occupation="GM Team Leader"/></div>
+        <div id = 'memberSection' className='aboutIndividualAvatar'><Avatar img={ReneeMai} name="Renee Mai" occupation="Team Member"/></div>
+        <div id = 'memberSection' className='aboutIndividualAvatar'><Avatar img={XinyueLiu} name="Xinyue Liu" occupation="Team Member"/></div>
+        <div id = 'memberSection' className='aboutIndividualAvatar'><Avatar img={ShuxingYang} name="Shuxing Yang" occupation="Team Member"/></div>
       </div>
       
-      <h2 className= 'aboutMemberTitle'>Financial Team</h2>
+      <h2 id = 'memberSubtitle' className= 'aboutMemberTitle'>Financial Managers</h2>
       <div className='aboutMemberAvatars'>
-        <div className='aboutIndividualAvatar'><Avatar img={Suiyi} name="Suiyi" occupation="president"/></div>
-        <div className='aboutIndividualAvatar'><Avatar img={Suiyi} name="Suiyi" occupation="president"/></div>
-        <div className='aboutIndividualAvatar'><Avatar img={Suiyi} name="Suiyi" occupation="president"/></div>
+        <div id = 'memberSection' className='aboutIndividualAvatar'><Avatar img={PriscillaZheng} name="Priscilla Zheng" occupation="FM Team Leader"/></div>
+        <div id = 'memberSection' className='aboutIndividualAvatar'><Avatar img={ShiyunZhao} name="Shiyun Zhao" occupation="Team Member"/></div>
       </div>
       
-      <h2 className= 'aboutMemberTitle'>Techinical Team</h2>
+      <h2 id = 'memberSubtitle' className= 'aboutMemberTitle'>Activities Managers</h2>
       <div className='aboutMemberAvatars'>
-        <div className='aboutIndividualAvatar'><Avatar img={Suiyi} name="Suiyi" occupation="president"/></div>
-        <div className='aboutIndividualAvatar'><Avatar img={Suiyi} name="Suiyi" occupation="president"/></div>
-        <div className='aboutIndividualAvatar'><Avatar img={Suiyi} name="Suiyi" occupation="president"/></div>
-        <div className='aboutIndividualAvatar'><Avatar img={Suiyi} name="Suiyi" occupation="president"/></div>
-        <div className='aboutIndividualAvatar'><Avatar img={Suiyi} name="Suiyi" occupation="president"/></div>
-        <div className='aboutIndividualAvatar'><Avatar img={Suiyi} name="Suiyi" occupation="president"/></div>
+        <div id = 'memberSection' className='aboutIndividualAvatar'><Avatar img={ShuxingYang} name="Shuxing Yang" occupation="AM Team Member"/></div>
+        <div id = 'memberSection' className='aboutIndividualAvatar'><Avatar img={YicongDeng} name="Yicong Deng" occupation="Team Member"/></div>
+        <div id = 'memberSection' className='aboutIndividualAvatar'><Avatar img={ZhouShen} name="Zhou Shen" occupation="Team Member"/></div>
+        <div id = 'memberSection' className='aboutIndividualAvatar'><Avatar img={XipingSun} name="Xiping Sun" occupation="Team Member"/></div>
+        <div id = 'memberSection' className='aboutIndividualAvatar'><Avatar img={JunyaoHu} name="Junyao Hu" occupation="Team Member"/></div>
+        <div id = 'memberSection' className='aboutIndividualAvatar'><Avatar img={QiaoqiaoSun} name="Qiaoqiao Sun" occupation="Team Member"/></div>
       </div>
       
-      <h2 className= 'aboutMemberTitle'>Design Team</h2>
+      <h2 id = 'memberSubtitle' className= 'aboutMemberTitle'>Tech & Cyber Support Team</h2>
       <div className='aboutMemberAvatars'>
-        <div className='aboutIndividualAvatar'><Avatar img={Suiyi} name="Suiyi" occupation="president"/></div>
-        <div className='aboutIndividualAvatar'><Avatar img={Suiyi} name="Suiyi" occupation="president"/></div>
-        <div className='aboutIndividualAvatar'><Avatar img={Suiyi} name="Suiyi" occupation="president"/></div>
+        <div id = 'memberSection' className='aboutIndividualAvatar'><Avatar img={YiChen} name="Yi Chen" occupation="T & C Team Leader"/></div>
+        <div id = 'memberSection' className='aboutIndividualAvatar'><Avatar img={BoHu} name="Bo Hu" occupation="Team Member"/></div>
+        <div id = 'memberSection' className='aboutIndividualAvatar'><Avatar img={JialinHe} name="Jialin He" occupation="Team Member"/></div>
+      </div>
+
+      <h2 id = 'memberSubtitle' className= 'aboutMemberTitle'>Art & Design Support Team</h2>
+      <div className='aboutMemberAvatars'>
+        <div id = 'memberSection' className='aboutIndividualAvatar'><Avatar img={JunyangDu} name="Junyang Du" occupation="A & D Team Leader"/></div>
+        <div id = 'memberSection' className='aboutIndividualAvatar'><Avatar img={QiqiPan} name="Qiqi Pan" occupation="Team Member"/></div>
+      </div>
+
+      <h2 id = 'memberSubtitle' className= 'aboutMemberTitle'>Human Resource</h2>
+      <div className='aboutMemberAvatars'>
+        <div id = 'memberSection' className='aboutIndividualAvatar'><Avatar img={ReneeMai} name="Renee Mai" occupation="HR Team Leader"/></div>
       </div>
     </div>
   );
