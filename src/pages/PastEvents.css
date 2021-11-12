@@ -8,7 +8,7 @@
   font-family: 'Helvetica';
   font-style: oblique;
   font-weight: bold;
-  font-size: 15pt;
+  font-size: 18pt;
   color:#AFC05A;
   margin-top: -6%;
   position: relative;
@@ -223,18 +223,73 @@
 #word3 {
   margin-left: -330%;
   margin-top: -30%;
+  font-family: 'Athelas';
+  font-size: 43pt;
 }
 #word4 {
   margin-right: -300%;
   margin-top: -30%;
+  font-family: 'Athelas';
+  font-size: 43pt;
 }
 #word5 {
-  font-family: 'Minion Variable concept (regular)';
+  font-family: 'MinionVariableConcept';
   font-size: 12pt;
   color: black;
 }
-#image {
-  width: 400px;
-  height: 267px;
-  margin-bottom: 5%;
+#image1 {
+  width: 825px;
+  height: 550px;
+  margin-bottom: -30%;
+  margin-left:-20%
+}
+
+#image2 {
+  width: 825px;
+  height: 550px;
+  margin-bottom: -30%;
+  margin-left: -90%;
+}
+
+#image3 {
+  width: 825px;
+  height: 550px;
+  margin-bottom: -30%;
+  margin-left:-20%
+}
+
+#image4 {
+  width: 825px;
+  height: 550px;
+  margin-bottom: -15%;
+  margin-left: -90%;
+}
+
+#image5 {
+  width: 825px;
+  height: 550px;
+  margin-bottom: -30%;
+  margin-left:-20%
+}
+
+#image6 {
+  width: 825px;
+  height: 550px;
+  margin-bottom: -40%;
+  margin-left: -90%;
+}
+
+@font-face {
+  font-family: Helvetica;
+  src: url(./Font/Helvetica.ttc);
+}
+
+@font-face {
+  font-family: Athelas;
+  src: url(./Font/Athelas.ttc);
+}
+
+@font-face {
+  font-family: MinionVariableConcept;
+  src: url(./Font/MinionVariableConcept-Roman.otf);
 }

@@ -1,28 +1,27 @@
 import './PastEvents.css';
-import img1 from './Img/Img1.jpg';
-import img2 from './Img/Img2.jpg';
-import img3 from './Img/Img3.jpg';
-import img4 from './Img/Img4.jpg';
-import img5 from './Img/Img5.jpg';
-import img6 from './Img/Img6.jpg';
+import img1 from './Img/Img1.PNG';
+import img2 from './Img/Img2.PNG';
+import img3 from './Img/Img3.PNG';
+import img4 from './Img/Img4.PNG';
+import img5 from './Img/Img5.PNG';
+import img6 from './Img/Img6.PNG';
 const PastEvents = () => {
   return (
     <div id='pastevents'>
       <div class='vline'>
-        <ul>
+        <ul style={{ marginTop: 0 }}>
           <li></li>
         </ul>
       </div>
       <div class='timeline' id='part1'>
         <div id='years'>
-          <h1 id='2018'>2018</h1>
+          <h1 id='2018'>2 0 1 8</h1>
         </div>
 
         <ul id='p'>
           <li>
             <div id='block1'>
-              <h1 id='word1'>THA Founded</h1>
-              <img src={img1} id='image' />
+              <img src={img1} id='image1' />
             </div>
           </li>
 
@@ -38,8 +37,7 @@ const PastEvents = () => {
 
           <li>
             <div id='block2'>
-              <h1 id='word2'>1st Fundrasier</h1>
-              <img src={img2} id='image' />
+              <img src={img2} id='image2' />
             </div>
           </li>
 
@@ -56,8 +54,7 @@ const PastEvents = () => {
           </li>
           <li>
             <div id='block3'>
-              <h1 id='word1'>2nd Fundrasier</h1>
-              <img src={img3} id='image' />
+              <img src={img3} id='image3' />
             </div>
           </li>
 
@@ -82,8 +79,7 @@ const PastEvents = () => {
           </li>
           <li>
             <div id='block4'>
-              <h1 id='word2'>3rd Fundrasier</h1>
-              <img src={img4} id='image' />
+              <img src={img4} id='image4' />
             </div>
           </li>
 
@@ -113,91 +109,95 @@ const PastEvents = () => {
       </div>
       <div class='timeline' id='part2'>
         <div id='years'>
-          <h1 id='2019'>2019</h1>
+          <h1 id='2019'>2 0 1 9</h1>
         </div>
-        <ul id='p'>
-          <li>
-            <div id='block1'>
-              <h1 id='word1'>Donation Trip</h1>
-              <img src={img5} id='image' />
-            </div>
-          </li>
+        <div class='timeline' id='part2'>
+          <div id='years'>
+            <h1 id='2019'>2019</h1>
+          </div>
+          <ul id='p'>
+            <li>
+              <div id='block1'>
+                <img src={img5} id='image5' />
+              </div>
+            </li>
 
-          <li>
-            <div id='text'>
-              <h1 id='word3'>
-                December 29th, 2018 <br />
-                to <br />
-                January 9th, 2019
-              </h1>
-              <p id='word5'>
-                THA finally were able to donate to the kids at Escuela Uvita de
-                Osa with a trip to <mark>Costa Rica</mark>!
-              </p>
-            </div>
-          </li>
+            <li>
+              <div id='text'>
+                <h1 id='word3'>
+                  December 29th, 2018 <br />
+                  to <br />
+                  January 9th, 2019
+                </h1>
+                <p id='word5'>
+                  THA finally were able to donate to the kids at Escuela Uvita
+                  de Osa with a trip to <mark>Costa Rica</mark>!
+                </p>
+              </div>
+            </li>
 
-          <li>
-            <div id='block2'>
-              <h1 id='word2'>4th Fundrasier</h1>
-              <img src={img6} id='image' />
-            </div>
-          </li>
+            <li>
+              <div id='block2'>
+                <img src={img6} id='image6' />
+              </div>
+            </li>
 
-          <li>
-            <div id='text'>
-              <h1 id='word4'>April 9th, 2019</h1>
-              <p id='word5'>
-                THA's first major fundraisier after the donation trip to Costa
-                Rica. This is also the first fundraisier THA hosted alongside
-                the IvyMax foundation, who is now our primary business partner.
-                The location of this 150+ participant fundraising event was at
-                <mark>Pleasanton Marriott Hotel</mark>. The THA was interviewed
-                by WorldNews, a Bay Area Chinese media company, and our
-                contribution alongwith the THA club itself was included in the
-                WorldNews newspaper.
-              </p>
-            </div>
-          </li>
-        </ul>
-      </div>
-      <div class='vline2'>
-        <ul>
-          <li></li>
-        </ul>
-      </div>
-      <div class='vline'>
-        <ul>
-          <li></li>
-        </ul>
-      </div>
-      <div class='vline'>
-        <ul>
-          <li></li>
-        </ul>
-      </div>
-      <div class='vline'>
-        <ul>
-          <li></li>
-        </ul>
-      </div>
-      <div class='vline'>
-        <ul>
-          <li></li>
-        </ul>
-      </div>
-      <div class='vline'>
-        <ul>
-          <li></li>
-        </ul>
-      </div>
-      <div class='vline'>
-        <ul>
-          <li></li>
-        </ul>
-      </div>
-      <div id='bottomline'>
-        <h1>and many more to come...</h1>
+            <li>
+              <div id='text'>
+                <h1 id='word4'>April 9th, 2019</h1>
+                <p id='word5'>
+                  THA's first major fundraisier after the donation trip to Costa
+                  Rica. This is also the first fundraisier THA hosted alongside
+                  the IvyMax foundation, who is now our primary business
+                  partner. The location of this 150+ participant fundraising
+                  event was at
+                  <mark>Pleasanton Marriott Hotel</mark>. The THA was
+                  interviewed by WorldNews, a Bay Area Chinese media company,
+                  and our contribution alongwith the THA club itself was
+                  included in the WorldNews newspaper.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class='vline2'>
+          <ul>
+            <li></li>
+          </ul>
+        </div>
+        <div class='vline'>
+          <ul>
+            <li></li>
+          </ul>
+        </div>
+        <div class='vline'>
+          <ul>
+            <li></li>
+          </ul>
+        </div>
+        <div class='vline'>
+          <ul>
+            <li></li>
+          </ul>
+        </div>
+        <div class='vline'>
+          <ul>
+            <li></li>
+          </ul>
+        </div>
+        <div class='vline'>
+          <ul>
+            <li></li>
+          </ul>
+        </div>
+        <div class='vline'>
+          <ul>
+            <li></li>
+          </ul>
+        </div>
+        <div id='bottomline'>
+          <h1>and many more to come...</h1>
+        </div>
       </div>
     </div>
   );
