@@ -17,8 +17,8 @@ const Navbar = () => {
 
       <div className='navbarTextGroup'>
         <Link
-          to='/home'
-          className={isCurrentPage('/home') ? 'nav-link-active' : 'nav-link'}
+          to='/'
+          className={isCurrentPage('/') ? 'nav-link-active' : 'nav-link'}
         >
           Home
         </Link>
@@ -36,7 +36,9 @@ const Navbar = () => {
         </Link>
         <Link
           to='/pastevents'
-          className={isCurrentPage('/pastevents') ? 'nav-link-active' : 'nav-link'}
+          className={
+            isCurrentPage('/pastevents') ? 'nav-link-active' : 'nav-link'
+          }
         >
           Past Events
         </Link>
