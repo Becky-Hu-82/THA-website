@@ -1,10 +1,10 @@
 #home {
   background-color: #fffbf0;
-  height: 100vh;
+  height: 90vh;
 }
-#image {
-  min-height: 100%;
-  min-width: 100%;
+#homeImage {
+  height: 90vh;
+  width: 100vw;
   background-size: cover;
   background-position: center;
 }
