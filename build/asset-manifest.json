@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.2d8a8fad.chunk.css",
-    "main.js": "/static/js/main.0ca060b4.chunk.js",
-    "main.js.map": "/static/js/main.0ca060b4.chunk.js.map",
+    "main.css": "/static/css/main.e00fe519.chunk.css",
+    "main.js": "/static/js/main.3e952f6d.chunk.js",
+    "main.js.map": "/static/js/main.3e952f6d.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.9e533a2e.js",
     "runtime-main.js.map": "/static/js/runtime-main.9e533a2e.js.map",
     "static/js/2.f3307455.chunk.js": "/static/js/2.f3307455.chunk.js",
@@ -10,20 +10,35 @@
     "static/js/3.24bba505.chunk.js": "/static/js/3.24bba505.chunk.js",
     "static/js/3.24bba505.chunk.js.map": "/static/js/3.24bba505.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.2d8a8fad.chunk.css.map": "/static/css/main.2d8a8fad.chunk.css.map",
+    "static/css/main.e00fe519.chunk.css.map": "/static/css/main.e00fe519.chunk.css.map",
     "static/js/2.f3307455.chunk.js.LICENSE.txt": "/static/js/2.f3307455.chunk.js.LICENSE.txt",
-    "static/media/Img1.034e6021.jpg": "/static/media/Img1.034e6021.jpg",
-    "static/media/Img2.7e175e25.jpg": "/static/media/Img2.7e175e25.jpg",
-    "static/media/Img3.0ebe257b.jpg": "/static/media/Img3.0ebe257b.jpg",
-    "static/media/Img4.7892b211.jpg": "/static/media/Img4.7892b211.jpg",
-    "static/media/Img5.f8fe865b.jpg": "/static/media/Img5.f8fe865b.jpg",
-    "static/media/Img6.4c5e66f1.jpg": "/static/media/Img6.4c5e66f1.jpg",
-    "static/media/WePage.8d50f334.jpg": "/static/media/WePage.8d50f334.jpg"
+    "static/media/PastEvents.css": "/static/media/MinionVariableConcept-Roman.ed76e087.otf",
+    "static/media/Img1.7d5104a4.PNG": "/static/media/Img1.7d5104a4.PNG",
+    "static/media/Img2.63563463.PNG": "/static/media/Img2.63563463.PNG",
+    "static/media/Img3.977cfd0d.PNG": "/static/media/Img3.977cfd0d.PNG",
+    "static/media/Img4.93b3f6e0.PNG": "/static/media/Img4.93b3f6e0.PNG",
+    "static/media/Img5.56e62d6a.PNG": "/static/media/Img5.56e62d6a.PNG",
+    "static/media/Img6.a7f38632.PNG": "/static/media/Img6.a7f38632.PNG",
+    "static/media/Junyang Du.6a428e58.jpg": "/static/media/Junyang Du.6a428e58.jpg",
+    "static/media/Junyao Hu.0c10067e.jpg": "/static/media/Junyao Hu.0c10067e.jpg",
+    "static/media/Priscilla.e9341894.jpg": "/static/media/Priscilla.e9341894.jpg",
+    "static/media/Renee Mai.a3216e76.jpg": "/static/media/Renee Mai.a3216e76.jpg",
+    "static/media/Shuxing Yang.baa52248.jpg": "/static/media/Shuxing Yang.baa52248.jpg",
+    "static/media/WePage.23f7560c.jpg": "/static/media/WePage.23f7560c.jpg",
+    "static/media/Xinyue Liu.c0590256.jpg": "/static/media/Xinyue Liu.c0590256.jpg",
+    "static/media/Yi Sui.3ef26159.jpg": "/static/media/Yi Sui.3ef26159.jpg",
+    "static/media/jialin he.413aa8c6.jpg": "/static/media/jialin he.413aa8c6.jpg",
+    "static/media/qiaoqiao sun.a10bd29d.jpg": "/static/media/qiaoqiao sun.a10bd29d.jpg",
+    "static/media/qiqi Pan.7fcb4e0d.jpg": "/static/media/qiqi Pan.7fcb4e0d.jpg",
+    "static/media/shiyun zhao.c36a476b.jpg": "/static/media/shiyun zhao.c36a476b.jpg",
+    "static/media/xiping sun.c146df04.jpg": "/static/media/xiping sun.c146df04.jpg",
+    "static/media/yi chen.33db33ad.jpg": "/static/media/yi chen.33db33ad.jpg",
+    "static/media/zhou shen.7df16409.jpg": "/static/media/zhou shen.7df16409.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.9e533a2e.js",
     "static/js/2.f3307455.chunk.js",
-    "static/css/main.2d8a8fad.chunk.css",
-    "static/js/main.0ca060b4.chunk.js"
+    "static/css/main.e00fe519.chunk.css",
+    "static/js/main.3e952f6d.chunk.js"
   ]
 }
