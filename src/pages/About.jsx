@@ -15,7 +15,7 @@ import JunyaoHu from './Img/Junyao Hu.jpg'
 import QiaoqiaoSun from './Img/qiaoqiao sun.jpg'
 
 import YiChen from './Img/yi chen.jpg'
-import BoHu from './Img/NA.jpg'
+import BoHu from './Img/Hu Bo.jpg'
 import JialinHe from './Img/jialin he.jpg'
 
 import JunyangDu from './Img/Junyang Du.jpg'
