@@ -39,7 +39,7 @@ function Avatar(props) {
   }
   return <div>
     <div>
-      <img alt="NA" src={props.img} width="175" height="199"/>
+      <img alt="NA" src={props.img} width="160" height="200"/>
     </div>
     <div>
       <text style={nameStyle}>{props.name}</text>
